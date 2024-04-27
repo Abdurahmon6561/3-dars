@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.logo {
+  width: 50px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.logo:hover {
+  color: rgb(122, 122, 239);
+}
+.li {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.p_1 {
+  padding: 14px;
+}
+.p_1:hover {
+  color: rgb(84, 84, 241);
+}
+.inp {
+  border-radius: 8px;
+  padding: 12px;
+  width: 250px;
+  border: none;
+}
+.btn {
+  font-size: large;
+  padding: 8px;
+  border: none;
+  background-color: white;
+}
+.btn_2 {
+  font-size: large;
+  padding: 8px;
+  background-color: white;
+  border-radius: 50px;
+  border-color: rgb(40, 48, 48);
+}
+
+/* Hero */
+.hero {
+  background-image: url("./image/bg_img.png");
+  background-size: 100vw;
+  height: 686px;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+}
+.text {
+  padding: 60px;
+}
+
+.hero_h2 {
+  color: white;
+  font-size: 45px;
+}
+.hero_p {
+  font-size: 18px;
+  color: white;
+}
+.btn_3 {
+  font-size: 25px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+/* Card */
